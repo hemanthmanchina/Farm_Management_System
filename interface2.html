@@ -1,0 +1,159 @@
+<html>
+    <head>
+        <meta name="viewport" content="with-device-width" initial-scale="1.0">
+        <title>Main page</title>
+        <link rel="stylesheet" href="cstyle.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    </head>
+    <body>
+        <section class="navigation">
+            <nav>
+                <a href="file:///C:/Users/MAHALAKSHMI/Desktop/newframe.html">
+                    <img src="73.jpg" width="150" height="78">
+                </a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="ShowMenu()"></i>
+                    <ul>
+                        <li><a href="interface2.html">HOME</a></li>
+	                    <li><a href="equipment.html">EQUIPMENT</a></li>
+                        <li><a href="#DISEASES">DISEASES</a></li>
+                        <li><a href="#FERTILIZERS">FERTILIZERS</a></li>
+                        <li><a href="#footer">CONTACT </a></li>
+                        <li><a href="interface.html">LOGOUT</li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="CloseMenu()"></i>
+            </nav>
+            <div class="text">
+                <h1>AGRICULTURE IS THE HOPE </h1>
+                <h2>Support Farmers</h2>
+                <p>
+                    Agriculture is our wisest pursuit, because it will in the end contribute most to real wealth, good morals & happiness.The farmer has to be an optimist or he wouldn't still be a farmer.
+                </p>
+            </div>
+        </section>
+        <section class="navigation">
+        <section id="DISEASES">
+            <div class="title-txt">
+                <h1>Diseases</h1>
+                <p> Different Diseases for the belowed mention crops are available.You can also get the information about their symptoms,management and preventive measures
+                    and composition of pesticides to be used to control the pests.
+                </p>
+            </div>
+            <div class="sbox">
+                <div class="service">
+                    <!--div class="overlay"></div-->
+                    <!--a href="bmsticket.html"-->
+                    <img src="h6.jpg">
+                    <div class="">
+                        <a href="diseases2.html">
+                        <h3>View Diseases</h3>
+                        </a>
+                    </div>
+                    </a>
+                </div>  
+                <div class="service">
+                    <!--div class="overlay"></div-->
+                    <img src="h7.jpg">
+                    <div class="">
+                        <a href="diseases1.html">
+                        <h3>View Diseases</h3>
+                        </a>
+                    </div>
+                </div>
+                
+                </div>
+            </div>
+        </section>
+    </section>
+    <section class="navigation">
+        <section id="FERTILIZERS">
+            <div class="title-txt">
+                <h1>Fertilizers</h1>
+                <p> Different fertlizers to be used to increase the fertility of the soil and the production of the field.
+                </p>
+            </div>
+            <div class="sbox">
+                <div class="service">
+                    <!--div class="overlay"></div-->
+                    <!--a href="bmsticket.html"-->
+                    <img src="h6.jpg">
+                    <div class="">
+                        <a href="fertlizers2.html">
+                        <h3>View Fertilizers</h3>
+                        </a>
+                    </div>
+                    </a>
+                </div>  
+                <div class="service">
+                    <!--div class="overlay"></div-->
+                    <img src="h7.jpg">
+                    <div class="">
+                        <a href="fertilizers.html">
+                        <h3>View Fetilizers</h3>
+                        </a>
+                    </div>
+                </div>
+                
+                </div>
+            </div>
+        </section>
+    </section>
+        <!--section class="Saftey">
+            <div class="text">
+                <h2>
+                    COVID-19 PROTOCOLS
+                </h2>
+                <p>
+                    Our Team GO By Bus recommends that all passengers follow Covid Safety Guidelines.
+                    Maintaining strict safety protocols can ensure that the virus spread is in control.
+                    Travellers must make sure to wear double masks, use hand sanitisers and keep their distance from others.
+                    Ensure that you have a normal temperature and doesn't show any symptoms related to the covid-19.
+                </p>
+
+            </div>
+        </section-->
+        <section id="footer">
+            <div class="title-txt">
+                <p>
+                    CONTACT US :
+                </p>
+            </div>
+            <div class="footer-row">
+                <div class="footer-left">
+                    <h4> You can contact us at :</h4>
+                    <br>
+                    <p>
+                        Our contact datails:
+                        <br>
+                        Phone No:-9441674120
+                        <br>
+                        also you can mail us at supportfarmers@gmail.com
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <script>
+            var navLinks=document.getElementsById("navLinks");
+            function ShowMenu()
+            {
+                navLinks.style.right="0";
+            }
+            function CloseMenu()
+            {
+                navLinks.style.right="-200px";
+            }
+            var scroll = new SmoothScroll('a[href*="#"]', 
+            {
+	            speed: 3000,
+	            speedAsDuration: true
+            });
+        </script>
+    </body>
+</html>
